@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    background: url(../img/backgraund.png) no-repeat;
+    background-size: cover;
+}
+#menuTop{
+    border-radius: 0 0 15px 15px;
+    border: solid 1px transparent;
+    background-image: linear-gradient(black, #1c1c1c, black), radial-gradient(circle at bottom, magenta, cyan, greenyellow);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    height: 50px;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+.btn_menuTop{
+    background: radial-gradient(rebeccapurple, rgb(81, 3, 158));
+    border: none;
+    border-radius: 15px;
+    color: cyan;
+    margin: 5px;
+    font-size: 18px;
+}
+.btn_menuTop:hover{
+    background: radial-gradient(yellow, greenyellow);
+    color: rebeccapurple;
+    border: none;
+    border-radius: 15px;
+    margin: 5px;
+    font-size: 18px;
+}
+#conteudo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 5%;
+    width: auto;
+    height: 500px;
+}
+/*  estilos relacionados ao formulario de contato abaixo */
+#contato{
+    background-color: rgba(0, 0, 0, 0.2);
+    color: magenta;
+    height: auto;
+    width: 400px;
+}
+.campFormContato{
+    border: solid 1px rgb(0, 255, 255, 0.5);
+    margin: 2.5%;
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 300px;
+    font-size: 16px;
+    color: yellowgreen;
+}
+.campFormContato:focus{
+    outline: none;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+.campFormContato::placeholder{
+    color: cyan;
+}
